@@ -9,11 +9,11 @@ jobs:
   build-and-analyze:
     runs-on: ubuntu-latest    
 
-permissions:
+  permissions:
       contents: write
       pull-requests: write    
 
-steps:
+  steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
